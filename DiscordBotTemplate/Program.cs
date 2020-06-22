@@ -22,7 +22,7 @@ namespace DiscordBotTemplate
 			DotEnv.Config(false, ".env");
 
 			Startup y = new Startup(_client);
-			CommandHandlderService x = new CommandHandlderService(y.BuildProvider(), new CommandService(), _client);
+			CommandHandlerService x = new CommandHandlerService(y.BuildProvider(), new CommandService(), _client);
 
 			// Registers logging
 			_client.Log += Log;

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DiscordBotTemplate.Services
 {
-	public class CommandHandlderService
+	public class CommandHandlerService
 	{
 		private readonly DiscordSocketClient _client;
 		private readonly CommandService _commands;
 		private readonly IServiceProvider _services;
 
-		public CommandHandlderService(
+		public CommandHandlerService(
 			IServiceProvider services,
 			CommandService commands,
 			DiscordSocketClient client)

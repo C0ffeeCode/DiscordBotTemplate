@@ -26,7 +26,7 @@ namespace DiscordBotTemplate
 			//	Environment.GetEnvironmentVariable("DatabaseKey"),
 			//	Environment.GetEnvironmentVariable("DatabaseName")))
 			// Register services
-			.AddSingleton<CommandHandlderService>()
+			.AddSingleton<CommandHandlerService>()
 			.AddSingleton(_client)
 			.AddSingleton(_commands)
 			.BuildServiceProvider();
